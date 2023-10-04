@@ -1,0 +1,305 @@
+.background {
+  background: greenyellow;
+}
+
+.background_2 {
+  background: skyblue;
+  height: 1280px;
+}
+
+.container {
+  font-family: "Montserrat";
+  margin-left: 230px;
+  margin-right: 230px;
+}
+
+header {
+  padding-top: 40px;
+  padding-bottom: 120px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top_menu {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.call_back {
+  border: 1px solid #e4b564;
+  padding: 20px 25px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #e4b564;
+}
+
+.warm_net_title {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 55px;
+  color: #ffffff;
+}
+
+p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.warm_net_plot {
+  margin-bottom: 40px;
+}
+
+.warm_net {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  height: 800px;
+}
+
+.warm_net p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.warm_net_item_1 {
+  background: #634f2c;
+  grid-area: 1/1/2/3;
+}
+
+.warm_net_item_2 {
+  background: #b4a385;
+  grid-area: 1/3/2/5;
+}
+
+.warm_net_item_3 {
+  background: #e4b564;
+  grid-area: 1/5/2/7;
+}
+
+.warm_net_item_4 {
+  background: #635a4a;
+  grid-area: 2/1/3/4;
+}
+
+.warm_net_item_5 {
+  background: #635a4a;
+  grid-area: 2/4/3/7;
+}
+
+.building_vehicle_title {
+  margin-top: 160px;
+  margin-bottom: 95px;
+}
+
+.building_vehicle {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  gap: 20px;
+  height: 900px;
+}
+
+.building_vehicle_item_1 {
+  background: #0e0e0e;
+  grid-area: 1/1/4/2;
+}
+
+.building_vehicle_item_2 {
+  background: #242424;
+  grid-area: 1/2/5/3;
+}
+
+.building_vehicle_item_3 {
+  background: #1f1f1f;
+  grid-area: 1/3/3/4;
+}
+
+.building_vehicle_item_4 {
+  background: #1f1f1f;
+  grid-area: 4/1/8/2;
+}
+
+.building_vehicle_item_5 {
+  background: #e4b564;
+  grid-area: 5/2/8/3;
+}
+
+.building_vehicle_item_6 {
+  background: #0e0e0e;
+  grid-area: 3/3/6/4;
+}
+
+.building_vehicle_item_7 {
+  background: #0a0909;
+  grid-area: 6/3/8/4;
+}
+
+.building_vehicle p {
+  font-weight: 500;
+  /* padding-top: 45px;
+  padding-left: 50px; */
+  padding: 20px;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.building_vehicle p span {
+  font-weight: 700;
+}
+
+.building_vehicle_content {
+  padding-bottom: 190px;
+}
+
+.client_content {
+  padding-top: 170px;
+}
+
+.all_projects {
+  border: 1px solid #e4b564;
+  padding: 10px 40px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #e4b564;
+  text-decoration: none;
+
+}
+
+.client_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.clients {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 50%);
+  height: 780px;
+}
+
+.clients_item_1 {
+  background: #634f2c;
+  grid-area: 1/1/2/2;
+}
+
+.clients_item_2 {
+  background: rgba(232, 210, 171, 0.76);
+  grid-area: 1/2/2/3;
+}
+
+.clients_item_3 {
+  background: #e4b564;
+  grid-area: 1/3/2/4;
+}
+
+.clients_item_4 {
+  background: #635a4a;
+  grid-area: 2/1/3/2;
+}
+
+.clients_item_5 {
+  background: #b08c4d;
+  grid-area: 2/2/3/3;
+}
+
+.clients_item_6 {
+  background: #634f2c;
+  grid-area: 2/3/3/4;
+}
+
+.clients_item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50% 0;
+}
+
+.clients_item:hover {
+  padding: 60px;
+  transition:1.5s;
+}
+
+.hover_text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffffff;
+  flex-direction: column;
+}
+
+.hover_text span{
+    font-weight: 400;
+}
+
+.clients_address{
+    display: none;
+}
+
+.clients_item:hover .clients_address{
+    display: flex;
+}
+
+/* .parallax {
+    height: 80vh;
+    background: url(../img/bg/bg1.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+} */
+/* 
+--------------------
+
+html {
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 50px;
+}
+
+.parallax {
+    position: relative;
+    width: 100%;
+    height: 1000vh;
+    overflow: hidden;
+}
+
+.parallax::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* transform: translateZ(-150px) scale(4); */
+/* background: center/cover no-repeat;
+}
+
+.parallax_1::before {
+    background-image: url(../img/bg/bg1.jpg);
+}
+
+.parallax_2::before {
+    background-image: url(../img/bg/bg2.jpg); */
